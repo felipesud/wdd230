@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+body header {
+    display:grid;
+    background-color: #051c34;
+    height: 200px;
+    grid-template-columns: 1fr 1fr;
+    font-family: Roboto, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+
+body header img{
+   
+    background-repeat: no-repeat;
+    width: 30vh;
+}
