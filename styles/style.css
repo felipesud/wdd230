@@ -58,3 +58,7 @@ body footer {
     text-align: center;
     max-width: 600px;
 }
+
+.last-modif-paragraph {
+    color: yellow
+}
