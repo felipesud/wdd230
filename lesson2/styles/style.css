@@ -58,16 +58,16 @@ section {
 body #first-section {
     grid-column: 1;
     padding: 20px;
-    margin: 2,5px;
+    margin: 2.5px;
     
 }body #second-section {
     grid-column: 2;
-    margin: 2,5px;
+    margin: 2.5px;
     padding: 20px;
     
 }body #third-section {
     grid-column: 3;
-    padding: 2,5px;
+    padding: 2.5px;
     margin: 10px;
 
 }
