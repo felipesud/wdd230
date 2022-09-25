@@ -1,4 +1,14 @@
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 425px) {
+    body header {
+        
+        display:block;
+        background-color: #2F6690;
+        height: 200px;
+        grid-template-columns: 1fr;
+        max-width: 425px;
+       
+    }
+    
     body main {
         display: grid;
         grid-template-rows: 10px 1fr 1fr;
@@ -27,7 +37,7 @@
         background-color: #2F6690;
         color: aliceblue;
         text-align: center;
-        width: 100%;
+        max-width: 425px;
         margin: 0 auto;
     }
     

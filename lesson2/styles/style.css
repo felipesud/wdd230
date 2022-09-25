@@ -86,7 +86,7 @@ body footer {
 }
 
 
-@media only screen and (min-width: 425px) {
+@media only screen and (max-width: 1439px) {
     body header {
         margin: 0 auto;
         display:block;
@@ -95,7 +95,7 @@ body footer {
         grid-template-columns: 1fr;
         width: 100%;
        
-        
+    }
     
     
     body main {

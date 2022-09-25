@@ -1,4 +1,4 @@
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
     body main {
         display: grid;
         grid-template-rows: 10px 1fr 1fr 1fr;
@@ -27,7 +27,7 @@
         background-color: #2F6690;
         color: aliceblue;
         text-align: center;
-        width: 100%;
+        max-width: 374px;
         margin: 0 auto;
     }
     
