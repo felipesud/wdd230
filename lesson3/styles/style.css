@@ -130,3 +130,18 @@ footer .social img {
 .social i:hover {
     color: var(--accent1-color);
 }
+
+table {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+#colors {
+    margin: 0 auto;
+    border: 1px solid #051c34;
+}
+
+.color-responsive{
+    display: none;
+}

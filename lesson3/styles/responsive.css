@@ -1,3 +1,4 @@
+@import url('style.css');
 @media screen and (max-width: 900px) {
     .home-grid {
         display: block;
@@ -15,4 +16,42 @@
     footer {
         margin-top: 25px;
     }
+
+    table {
+        display: none
+    };
+    #palette {
+        text-align: start;
+    }
+    #colors {
+        display: none;
+    }
+   
+    li {
+        list-style-type: none;
+    }
+   .color-responsive {
+    display: block;
+    
+   }
+   #primary-color{
+    background-color: #051c34;
+    border: 1px solid #051c34;
+    color: #DCD7E2;
+   }
+   
+   #secondary-color{
+    background-color: #45597C;
+    border: 1px solid #051c34;
+   }
+   
+   #accent-color{
+    background-color: #ac5363;
+    border: 1px solid #051c34;
+   }
+   
+   #accent2-color{
+    background-color: #DCD7E2;
+    border: 1px solid #051c34;
+   }
 }
