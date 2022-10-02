@@ -145,3 +145,8 @@ table {
 .color-responsive{
     display: none;
 }
+
+.onFooter {
+    color: #DCD7E2;
+    font-family: var(--paragraph-font);
+}
