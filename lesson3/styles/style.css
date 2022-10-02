@@ -86,9 +86,9 @@ body h1 {
 }
 
 body main{
-    grid-row: 2 / 3;
+    grid-row: 2 / 4;
     font-family:"Roboto";
-    
+    text-align: center;
     
     
 }
