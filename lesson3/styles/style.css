@@ -79,11 +79,7 @@ body header a {
 
 
 
-body h1 {
-    font-size: 100px;
-    color: var(--headline-color-on-white);
-    text-align: center;
-}
+
 
 body main{
     grid-row: 2 / 4;
@@ -93,15 +89,6 @@ body main{
     
 }
 
-body main img {
-    width: 300px;
-    border-radius: 70%;
-    border: solid;
-    border-color: var(--headline-color-on-white);
-    display: block;
-    margin: 0 auto;
-    
-}
 
 body main p {
     
