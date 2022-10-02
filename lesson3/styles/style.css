@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&family=Roboto:ital,wght@0,400;1,100&display=swap');
+:root {
+   
+    --primary-color: #051c34   ;
+    --secondary-color: #45597C ;
+    --accent1-color: #ac5363;
+    --accent2-color: #DCD7E2;
+  
+   
+    --heading-font: "Quicksand";
+    --paragraph-font: Roboto, Helvetica, sans-serif;
+  
+   
+    --headline-color-on-white: #051c34;  
+    --headline-color-on-color: white; 
+    --paragraph-color-on-white: #051c34; 
+    --paragraph-color-on-color: white;  
+    --paragraph-background-color: #051c34  ;
+    --nav-link-color: #DCD7E2;
+    --nav-background-color: #051c34;
+    --nav-hover-link-color: #051c34;
+    --nav-hover-background-color: #DCD7E2;
+  }
+
+body {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: 200px 1fr 1fr 200px;
+    
+    background-color: var(--accent2-color);
+}
+
+body header {
+    display:grid;
+    background-color: var(--primary-color);
+    height: 200px;
+    grid-template-columns: 150px auto;
+    font-family: var(--heading-font);
+
+}
+
+body header .logo img{
+   
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 25vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+body header nav a {
+    align-self: center;
+    text-align: center;
+    text-decoration: none;
+    color: var(--nav-link-color);
+    padding: 35px;
+}
+
+body header .nav:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+body header a {
+    padding:2em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 30px;
+  
+  }
+
+.logo {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body h1 {
+    font-size: 100px;
+    color: var(--headline-color-on-white);
+    text-align: center;
+}
+
+body main{
+    grid-row: 2 / 3;
+    font-family:"Roboto";
+    
+    
+    
+}
+
+body main img {
+    width: 300px;
+    border-radius: 70%;
+    border: solid;
+    border-color: var(--headline-color-on-white);
+    display: block;
+    margin: 0 auto;
+    
+}
+
+body main p {
+    
+    color: var(--headline-color-on-white);
+    text-align: center;
+    
+    
+}
+
+footer{
+    background-color: var(--nav-background-color); 
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer h3{
+    color: var(--accent2-color);
+
+}
+
+footer a {
+    color: var(--accent2-color);
+    text-decoration: none;
+}
+
+footer h3 a:hover {
+    background-color: var(--accent1-color);
+    color: var(--nav-background-color);
+    text-decoration: none;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.social i:hover {
+    color: var(--accent1-color);
+}
