@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&family=Roboto:ital,wght@0,400;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Roboto:ital,wght@0,400;1,100&display=swap');
 :root {
    
     --primary-color: #051c34   ;
@@ -7,7 +7,7 @@
     --accent2-color: #DCD7E2;
   
    
-    --heading-font: "Quicksand";
+    --heading-font: "Montserrat";
     --paragraph-font: Roboto, Helvetica, sans-serif;
   
    
