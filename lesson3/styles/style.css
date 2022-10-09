@@ -178,28 +178,28 @@ table, th, td {
   padding: 10px;
 }
 
-.firstary {
-  background-color: #972D07; /* Rufous */;
+.primary {
+  background-color: #6d6d6d;
   color: white;
 }
 
 .secondary {
-    background-color: #e53d00; /* Redwood */
+    background-color: #e53d00; 
     color: white;
   }
 
-.thirdary  {
-  background-color: #EABDA8; /* Desert Sand */
+.accent1  {
+  background-color: #f6f4d2; /* Desert Sand */
+  color: black;
+}
+
+.accent2 {
+  background-color: #01110a;
   color: white;
 }
 
-.fourary  {
-  background-color: #679436; /* Maximum Green */
-  color: white;
-}
-
-.fiveary  {
-  background-color: #1E2D2F; /* Charleston Green */
+.accent3  {
+  background-color: #590004; 
   color: white;
 }
 
@@ -207,6 +207,18 @@ table, th, td {
     display: none;
   }
 
+
+ #roboto {
+    font-family: 'Roboto';
+ } 
+
+ #lato {
+    font-family: 'Lato';
+ }
+
+ #montserrat {
+    font-family: 'Montserrat';
+ }
 
 
 /** Media Queries for tablet view **/
