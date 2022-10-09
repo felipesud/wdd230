@@ -1,152 +1,239 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Roboto:ital,wght@0,400;1,100&display=swap');
-:root {
-   
-    --primary-color: #051c34   ;
-    --secondary-color: #45597C ;
-    --accent1-color: #ac5363;
-    --accent2-color: #DCD7E2;
-  
-   
-    --heading-font: "Montserrat";
-    --paragraph-font: Roboto, Helvetica, sans-serif;
-  
-   
-    --headline-color-on-white: #051c34;  
-    --headline-color-on-color: white; 
-    --paragraph-color-on-white: #051c34; 
-    --paragraph-color-on-color: white;  
-    --paragraph-background-color: #051c34  ;
-    --nav-link-color: #DCD7E2;
-    --nav-background-color: #051c34;
-    --nav-hover-link-color: #051c34;
-    --nav-hover-background-color: #DCD7E2;
-  }
-
-body {
-    display: grid;
-    grid-template-columns: 1fr; 
-    grid-template-rows: 200px 1fr 1fr 200px;
-    
-    background-color: var(--accent2-color);
-}
-
-body header {
-    display:grid;
-    background-color: var(--primary-color);
-    height: 200px;
-    grid-template-columns: 150px auto;
-    font-family: var(--heading-font);
-
-}
-
-body header .logo img{
-   
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    width: 25vh;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Roboto:ital,wght@0,400;1,100&display=swap');
+/*  NAV  */
 
 nav {
-    display: flex;
-    justify-content: space-around;
+	
+  background-color: #6D6D6D; 
+
+	text-align: center;
+  color: white;
+  display: flex;
+justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+  height: 150px;
 }
 
-body header nav a {
-    align-self: center;
-    text-align: center;
-    text-decoration: none;
-    color: var(--nav-link-color);
-    padding: 35px;
+nav div {
+    flex: 1 1 auto;
+
 }
 
-body header .nav:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
 }
 
-body header a {
-    padding:2em;
-    min-width: 120px;
-    text-decoration: none;
-    padding: 30px;
-  
-  }
+
+nav a:hover {
+  background-color: #f6f4d2; 
+  color: #6d6d6d; 
+
+}
 
 .logo {
-    margin: 0px;
-    padding: 0px;
+  padding:  15px 15px 10px 15px;
+
 }
 
-
-
-
-
-body main{
-    grid-row: 2 / 4;
-    font-family:"Roboto";
-    text-align: center;
-    
-    
-}
-
-
-body main p {
-    
-    color: var(--headline-color-on-white);
-    text-align: center;
-    
-    
-}
-
-footer{
-    background-color: var(--nav-background-color); 
-    padding: 25px 50px;
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-footer h3{
-    color: var(--accent2-color);
-
+footer {
+  display: flex;
+  justify-content: space-around;
+    background-color: #6D6D6D; 
+  
+  color: white;
+  padding: 20px 10px 60px 0;
 }
 
 footer a {
-    color: var(--accent2-color);
-    text-decoration: none;
+  color: #f6f4d2; 
 }
 
-footer h3 a:hover {
-    background-color: var(--accent1-color);
-    color: var(--nav-background-color);
-    text-decoration: none;
+footer p {
+  margin: 0 0 5px 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+}
+footer h6 {
+  margin: 20px;
+}
+/* BODY & MAIN */
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+
+  font-size: 16px;
+  color: #1E2D2F; 
+  margin: 0 auto;
+
 }
 
-footer .social img {
-    padding-top: 15px;
+
+
+main {
+  margin: 0px 75px 0px 75px;
+  padding: 15px;
 }
 
-.social i:hover {
-    color: var(--accent1-color);
+h1 {
+  font-family: 'Lato', cursive;
+  font-size: 35px;
+  color: #e53d00; 
 }
 
-table {
-    text-align: center;
-    align-items: center;
-    margin: auto;
+h2 {
+  font-family: 'Lato', cursive;
+  font-size: 30px;
+  color: #e53d00; 
 }
 
-#colors {
-    margin: 0 auto;
-    border: 1px solid #051c34;
+h3 {
+
+  font-family: 'Lato', cursive;
+  font-size: 25px;
+  color: #679436; /* Maximum Green */
+
+
 }
 
-.color-responsive{
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #e53d00; /* Redwood */
+
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #679436; /* Maximum Green */
+}
+
+h6 {
+  font-family: 'Lato', cursive;
+  font-size: 16px;
+  color: #1E2D2F; /* Charleston Green */
+}
+
+.persona1 {
+  padding: 0;
+  margin: 0 0 0 5px;
+}
+/* table properties */
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding-left: 15px;
+  text-align: left;
+  vertical-align: top;
+  margin-top: 0;
+}
+
+.persona-table table, th, td {
+  border: 1px solid grey;
+  padding: 20px 5px 15px 5px;
+  text-align: left;
+  vertical-align: top;
+}
+
+
+.colors td {
+  height: 60px;
+  vertical-align: middle;
+}
+
+.persona-table td {
+  vertical-align: top;
+
+}
+/*  Color Scheme page */
+
+.color-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  text-align: left;
+  max-width: 500px;
+}
+
+.ct-title {
+  grid-row: 1;
+  grid-column: 1/3;
+}
+.colors {
+  grid-row: 2;
+  grid-column:1/3;
+}
+
+.table-header {
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.firstary {
+  background-color: #972D07; /* Rufous */;
+  color: white;
+}
+
+.secondary {
+    background-color: #e53d00; /* Redwood */
+    color: white;
+  }
+
+.thirdary  {
+  background-color: #EABDA8; /* Desert Sand */
+  color: white;
+}
+
+.fourary  {
+  background-color: #679436; /* Maximum Green */
+  color: white;
+}
+
+.fiveary  {
+  background-color: #1E2D2F; /* Charleston Green */
+  color: white;
+}
+
+.display-none {
     display: none;
+  }
+
+
+
+/** Media Queries for tablet view **/
+@media (min-width: 37.5em) {
+  nav {
+    flex-direction: row;
+  }
+
+  nav a {
+    font-size: 1.1rem;
+  }
+
+  main {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+ .display-none {
+    display: none;
+ }
+ 
 }
 
-.onFooter {
-    color: #DCD7E2;
-    font-family: var(--paragraph-font);
+/**   Media Queries Large desktop views **/
+@media (min-width: 48em) {
+	nav a {
+		font-size: 1.3rem;
+	}
+    .display-none {
+        display: block;
+     }
 }
