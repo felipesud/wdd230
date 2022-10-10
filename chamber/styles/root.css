@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+:root {
+   
+    --primary-color: #6d6d6d   ;
+    --secondary-color: #e53d00 ;
+    --accent1-color: #f6f4d2;
+    --accent2-color: #01110a;
+    --accent3-color: #590004;
+  
+   
+    --heading1-font: "Lato";
+    --heading2-font: "Montserrat";
+    --paragraph-font: "Roboto", Helvetica, sans-serif;
+  
+   
+    /* --headline-color-on-white: #051c34;  
+    --headline-color-on-color: white; 
+    --paragraph-color-on-white: #051c34; 
+    --paragraph-color-on-color: white; 
+    --paragraph-background-color: #051c34  ;
+    --nav-link-color: #DCD7E2;
+    --nav-background-color: #051c34;
+    --nav-hover-link-color: #051c34;
+    --nav-hover-background-color: #DCD7E2; */
+  }

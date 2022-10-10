@@ -1,0 +1,200 @@
+@import url('root.css');
+
+header {
+    background-color: var(--accent2-color);
+
+}
+
+header a {
+  color: var(--accent1-color);  
+  padding: 10px;
+  text-decoration: none;
+  font-family: var(--heading2-font), sans-serif;
+  font-weight: 200;
+}
+header img {
+    /* border: solid 1px white; */
+    width: 150px;
+    display: inline-block;
+}
+nav {
+    
+    display: flex;
+  justify-content: center;
+  background-color: var(--accent2-color);
+
+	text-align: center;
+
+    color: white;
+    
+  font-family: var(--heading2-font), sans-serif;
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+nav ul.open{display: block;
+}
+
+
+
+nav li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-family: var(--heading2-font), sans-serif;
+  font-weight: 200;
+  
+}
+
+nav a {
+    display: block;
+  color: white;
+  
+  padding: 10px;
+  text-decoration: none;
+  font-family: var(--heading2-font), sans-serif;
+  font-weight: 200;
+}
+
+
+nav a:hover {
+    background-color: var(--accent1-color);
+  color: var(--accent2-color);
+
+}
+
+
+
+/** Hamburger Button Toggle with NO 'X' **/
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+/** Hamburger Button Toggle with 'X' **/
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+nav button {
+    
+    background:var(--accent1-color);
+    color: var(--accent2-color);
+    border: none;
+  margin: 0;
+  font-size: 2rem;
+  list-style-type: none;
+  border-radius: 0;
+  align-content: center;
+  
+}
+
+nav button:hover {
+
+  background: var(--accent2-color);
+  color: var(--accent1-color);
+  border: 1px solid var(--accent1-color);
+  margin: 0;
+}
+
+
+
+
+
+.headerDate {
+    display: block;
+    background-color: var(--secondary-color);
+  color: var(--accent1-color);
+  font-size: 12px;
+  text-align: center;
+  padding: 0;
+
+}
+
+footer {
+  display: block;
+  background-color: var(--accent2-color);
+  text-align: left;
+  color: white;
+  padding: 20px 10px 60px 0;
+}
+
+footer a {
+  color: var(--accent1-color);
+  font-size: 12px;
+  padding: 20px 10px 60px 0;
+  margin: 0 0 5px 45px;
+}
+
+footer p {
+    margin: 0 0 5px 45px;
+    font-family: var(--heading2-font), sans-serif;
+    font-size: 12px;
+}
+
+footer hr{
+    margin: 20px 45px;
+    border-color: var(--accent1-color);
+}
+
+footer img {
+    margin: 0 0 5px 0;
+}
+h5 {
+    text-align: center;
+}
+body {
+  background-color: white;
+  font-family: var(--paragraph-font), sans-serif;
+  
+  font-size: 16px;
+  color: var(--accent2-color);
+  margin: 0 auto;
+
+}
+
+
+
+main {
+  margin: 0px 15px 0px 15px;
+  padding: 15px;
+}
+
+
+
+
+
+
+.homePage {
+  display: block;
+  
+}
+
+
+.homeBox {
+  background-color: var(--accent1-color);
+  border: 1px solid var(--accent2-color);
+  padding: 2vw;
+  margin: 1rem 0;
+  min-height: 220px;
+
+}
+
+.spotlight {
+  
+    border: 1px solid var(--accent2-color);
+    padding: 2vw;
+  margin: 0;
+  min-height: 200px;
+
+}
+
+.hidden-sm{
+  display: none;
+}
+   
