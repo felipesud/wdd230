@@ -354,3 +354,7 @@ main {
   width: 200px; 
   padding-left: 100px;
 }
+
+#hidden {
+  display: none;
+}
