@@ -3,7 +3,9 @@
 
 @media (min-width: 60em) {
 
-
+h2{
+  font-size: 25px;
+}
     
 nav {
   text-align: right;
@@ -63,12 +65,16 @@ grid-template-columns: 1fr 2fr 1fr;
 .weatherBox{
   grid-column: 1;
   grid-row:2;
+  width: 310px;
 }
-.joinBox{
+.joinUs{
   grid-column: 1;
   grid-row:3;
 }
 
+.joinUs button {
+  font-size: 20px;
+}
 
 .heroBox{
   grid-column: 2;
@@ -91,5 +97,14 @@ display: block;
 
 .spotlight{
   height: 250px;
+}
+
+.spotlight img {
+  width: 80px;
+}
+
+.spot3 img {
+  
+  padding-left: 100px;
 }
 }
