@@ -358,3 +358,7 @@ main {
 #hidden {
   display: none;
 }
+
+.hidden-sm {
+  display: none;
+}
