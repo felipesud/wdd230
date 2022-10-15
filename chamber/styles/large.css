@@ -107,4 +107,10 @@ display: block;
   
   padding-left: 100px;
 }
+
+#hidden {
+  display: none;
+}
+
+
 }
