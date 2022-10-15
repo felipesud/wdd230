@@ -112,7 +112,7 @@ display: block;
 
 }
 
-@media (width: 1068px){
+@media (min-width: 960px){
   .weatherBox{
     
     width: 270px;
