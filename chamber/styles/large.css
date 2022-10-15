@@ -108,9 +108,14 @@ display: block;
   padding-left: 100px;
 }
 
-#hidden {
-  display: none;
+
+
 }
 
+@media (width: 1068px){
+  .weatherBox{
+    
+    width: 270px;
+  }
 
 }
