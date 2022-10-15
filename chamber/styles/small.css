@@ -319,3 +319,7 @@ main {
   grid-row: 6;
   text-align: center;
 }
+
+.newsBox p {
+  text-align: center;
+}
