@@ -207,7 +207,7 @@ main {
   display: grid;
   grid-template-columns: 1fr 200px;
   grid-template-rows: 1fr 50px;
-  background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../images/coreto-praca-bandeira.jpg"); 
+  /* background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../images/coreto-praca-bandeira.jpg");  */
   background-position: center; 
   background-size: cover;
   color: var(--accent1-color)
