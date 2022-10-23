@@ -16,145 +16,151 @@
 
 
 
-    <body>
-        <div class="heading-nav">
-            <header>
+<body>
+    <div class="heading-nav">
+        <header>
 
-                
-                <img src="images/logo2.webp" alt="Chamber of Commerce logo" width="200">
-              <div class="social">  
+
+            <img src="images/logo2.webp" alt="Chamber of Commerce logo" width="200">
+            <div class="social">
                 <a href="https://www.facebook.com/felipesud/" target="_blank"><i
-                    class="fa-brands fa-facebook-square facebook" width=30></i></a>
-                    <a href="https://www.linkedin.com/in/felipe-belisario/" target="_blank"><i
+                        class="fa-brands fa-facebook-square facebook" width=30></i></a>
+                <a href="https://www.linkedin.com/in/felipe-belisario/" target="_blank"><i
                         class="fa-brands fa-linkedin linkedin" width=30></i></a>
-            
-                    </div>
-                        <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
-                
-                        <p class="headerDate"><span id="current-date"><strong></strong></span></p>
-                <nav>
 
-                    <ul id="primaryNav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Discover</a></li>
-                        <li><a href="#">Directory</a></li>
-                        <li><a href="#">Join</a></li>
-                        <li><a href="#">Contact</a></li>
-                        
-                            </ul>
-                </nav>
+            </div>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
 
-            </header>
-            
+            <p class="headerDate"><span id="current-date"><strong></strong></span></p>
+            <nav>
+
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Directory</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Contact</a></li>
+
+                </ul>
+            </nav>
+
+        </header>
+
+    </div>
+
+    <main class="homePage">
+
+        <div class="homeBox heroBox">
+            <picture class="heroImage">
+                <source media="(max-width:34.9rem)" srcset="./images/resized/wdd230-org-small.webp">
+                <source media="(max-width:63.9rem)" srcset="./images/resized/wdd230-org-medium.webp">
+                <source media="(min-width:64rem)" srcset="./images/resized/wdd230-org-large.webp">
+                <img src="./images/wdd230-org.webp" alt="Business Gathering">
+            </picture>
+            <h1 id="show">Welcome to Caçapava</h1>
+            <h1 id="hidden">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h1>
+            <button><strong>Join the Chamber</strong></button>
         </div>
 
-        <main class="homePage">
-
-            <div class="homeBox heroBox">
-                <picture class="heroImage">
-                    <source media="(max-width:37.4em)" srcset="images/resized/wdd230-org-small.webp">
-                    <source media="(max-width:60em)" srcset="images/resized/wdd230-org-medium.webp">
-                    <source media="(min-width:61em)" srcset="images/resized/wdd230-org-large.webp">
-                    <img src="images/wdd230-org.jpg" alt="Business Gathering">
-                </picture>
-                <h1 id="show">Welcome to Caçapava</h1>
-                <h1 id="hidden">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h1>
-                <button><strong>Join the Chamber</strong></button>
-            </div>
-
-            <div class="homeBox eventBox">
-                <h2>Old Cars Event</h2>
-                <h3>Amazing Event</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi aspernatur, excepturi perferendis qui repellat. <span><a href="#" >See More</a></span></p>
-            </div>
+        <div class="homeBox eventBox">
+            <h2>Old Cars Event</h2>
+            <h3>Amazing Event</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi aspernatur, excepturi perferendis qui
+                repellat. <span><a href="#">See More</a></span></p>
+        </div>
 
 
-            <div class="container">
-                <div class="homeBox weatherBox">
+        <div class="container">
+            <div class="homeBox weatherBox">
                 <h2>Weather</h2>
-                <img src="images/rain-weather-svgrepo-com.svg" alt="Weather Image">
-                <p id="degree">16°C</p>
+                <img src="images/rain-weather-pngrepo-com.webp" alt="Weather Image">
+                <div id="degree"><span id="temperature">16</span>°F</div>
                 <h3>Rainy</h3>
                 <p class="hr"></p>
                 <p id="wind-speed">Wind Speed: </p>
-                <p id="wind-speed-value">3.8 km/h</p>
+                <p id="wind-speed-value">3.8<span> MPH</span></p>
                 <p id="wind-chill">Wind Chill: </p>
-                <p id="wind-chill-value">N/A</p>
+                <p id="wind-chill-value"></p>
             </div>
         </div>
-        
+
         <div class="homeBox newsBox">
             <h2>News Release</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium amet maxime adipisci voluptatem natus incidunt voluptas vel totam perspiciatis nobis, soluta nostrum dolorem quis fugit nihil dolore nulla officia aperiam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium amet maxime adipisci voluptatem natus
+                incidunt voluptas vel totam perspiciatis nobis, soluta nostrum dolorem quis fugit nihil dolore nulla
+                officia aperiam.</p>
         </div>
 
-            <div class="homeBox spotBox spots">
-                <div class="spotlight spot1">
-                    <h2>Jequitibá Soccer</h2>
-                    <img src="images/soccer.png" alt="Jequitibá Soccer">
-                    <p class="slogan"><em>"Let's play like a Neymar!"</em></p>
-                    <p class="hr"></p>
-                    <p class="email"><a href="mailto:contact@jequitiba.com.br">contact@jequitiba.com.br</a></p>
-                    <p class="phone">+55-123658-8888 <span> | <a href="#" >wwww.jequitiba.com.br</a></span></p>
-                </div>
-                
-                <div class="spotlight spot2">
-                    <h2>Chocolate Store</h2>
-                    <img src="images/chocolate.png" alt="Cacau Show">
-                    <p class="slogan"><em>"Sweet Candies, Sweet Lives"</em></p>
-                    <p class="hr"></p>
-                    <p class="email"><a href="mailto:contact@cacaushow.com.br">contact@cacaushow.com.br</a></p>
-                    <p class="phone">+55-123948-1039 <span> | <a href="#" >wwww.cacaushow.com.br</a></span></p>
-                </div>
-
-                <div class="spotlight spot3 hidden-sm">
-                    <h2>Felipe Web Developer</h2>
-                    <img src="images/FelipeB.png" alt="Felipe Belisário">
-                    <p class="slogan"><em>"Making your drive better"</em></p>
-                    <p class="hr"></p>
-                    <p class="email"><a href="mailto:felipe@fsbelisario.com.br">felipe@fsbelisario.com.br</a></p>
-                    <p class="phone">+55-1299256-7158 <span> | <a href="https://fsbelisario.com.br/" target="_blank">www.fsbelisario.com.br</a></span></p>
-                </div>
-
-               
+        <div class="homeBox spotBox spots">
+            <div class="spotlight spot1">
+                <h2>Jequitibá Soccer</h2>
+                <img src="images/soccer.webp" alt="Jequitibá Soccer">
+                <p class="slogan"><em>"Let's play like a Neymar!"</em></p>
+                <p class="hr"></p>
+                <p class="email"><a href="mailto:contact@jequitiba.com.br">contact@jequitiba.com.br</a></p>
+                <p class="phone">+55-123658-8888 <span> | <a href="#">wwww.jequitiba.com.br</a></span></p>
             </div>
 
-            <div class="homeBox joinUs ">
-                    <button><strong>Join Us</strong></button>
-                    <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
-            </div>
-            
-
-
-
-        </main>
-
-        <footer>
-            
-            <div class="footTop">
-                <a class="footLogo" href="index.html"><img src="images/logo.png"
-                        alt="Chamber of Commerce logo" ></a>
-                <h5>Caçapava Chamber of Commerce</h5>
-                <div class="address">
-                    <p class="addLine1">Major Benjamin Raymundo da Silva, 30 Street</p>
-                    <p class="addLine2">Vila São João - Caçapava</p>
-                </div>
-                <div class="emailPhone">
-                    <p class="phone">Tel: (12) 3654-2700</p>
-                    <a class="email" href="mailto:info@cacapavacommerce.com" target="_blank">info@cacapavacommerce.com</a>
-                </div>
-                <div class="map">
-                    <a class="locMap" href="https://www.google.com/maps/place/Rua+Major+Benjamim+Raymundo+da+Silva,+30+-+Vila+Sao+Joao,+Ca%C3%A7apava+-+SP,+12281-430/@-23.1066699,-45.7089792,17z/data=!3m1!4b1!4m5!3m4!1s0x94cc517c8ecea831:0xe15e8430f087f452!8m2!3d-23.1066699!4d-45.7067905" target="_blank">Location Map</a>
-                </div>
+            <div class="spotlight spot2">
+                <h2>Chocolate Store</h2>
+                <img src="images/chocolate.webp" alt="Cacau Show">
+                <p class="slogan"><em>"Sweet Candies, Sweet Lives"</em></p>
+                <p class="hr"></p>
+                <p class="email"><a href="mailto:contact@cacaushow.com.br">contact@cacaushow.com.br</a></p>
+                <p class="phone">+55-123948-1039 <span> | <a href="#">wwww.cacaushow.com.br</a></span></p>
             </div>
 
-            <hr>
-            <div class="footBot">
-                <p>&copy; <span id="copyYr"></span> Caçapava Chamber of Commerce | Felipe Belisário | WDD 230 Project |
-                    Last Modification: <span id="last-modified"></span></p>
+            <div class="spotlight spot3 hidden-sm">
+                <h2>Felipe Web Developer</h2>
+                <img src="images/resized/FelipeB large_11zon.webp" alt="Felipe Belisário">
+                <p class="slogan"><em>"Making your drive better"</em></p>
+                <p class="hr"></p>
+                <p class="email"><a href="mailto:felipe@fsbelisario.com.br">felipe@fsbelisario.com.br</a></p>
+                <p class="phone">+55-1299256-7158 <span> | <a href="https://fsbelisario.com.br/"
+                            target="_blank">www.fsbelisario.com.br</a></span></p>
             </div>
-        </footer>
-<script src="scripts/script.js"></script>
-    </body>
+
+
+        </div>
+
+        <div class="homeBox joinUs ">
+            <button><strong>Join Us</strong></button>
+            <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
+        </div>
+
+
+
+
+    </main>
+
+    <footer>
+
+        <div class="footTop">
+            <a class="footLogo" href="index.html"><img src="images/logo.png" alt="Chamber of Commerce logo"></a>
+            <h5>Caçapava Chamber of Commerce</h5>
+            <div class="address">
+                <p class="addLine1">Major Benjamin Raymundo da Silva, 30 Street</p>
+                <p class="addLine2">Vila São João - Caçapava</p>
+            </div>
+            <div class="emailPhone">
+                <p class="phone">Tel: (12) 3654-2700</p>
+                <a class="email" href="mailto:info@cacapavacommerce.com" target="_blank">info@cacapavacommerce.com</a>
+            </div>
+            <div class="map">
+                <a class="locMap"
+                    href="https://www.google.com/maps/place/Rua+Major+Benjamim+Raymundo+da+Silva,+30+-+Vila+Sao+Joao,+Ca%C3%A7apava+-+SP,+12281-430/@-23.1066699,-45.7089792,17z/data=!3m1!4b1!4m5!3m4!1s0x94cc517c8ecea831:0xe15e8430f087f452!8m2!3d-23.1066699!4d-45.7067905"
+                    target="_blank">Location Map</a>
+            </div>
+        </div>
+
+        <hr>
+        <div class="footBot">
+            <p>&copy; <span id="copyYr"></span> Caçapava Chamber of Commerce | Felipe Belisário | WDD 230 Project |
+                Last Modification: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+    <script src="scripts/windchill.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
 
 </html>

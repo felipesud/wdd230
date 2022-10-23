@@ -49,6 +49,10 @@ header {
   min-height: 100px;
 
 }
+
+.heroBox h1, .heroBox button {
+  z-index: 1;
+}
 .hidden-sm{
   display: block;
 }
