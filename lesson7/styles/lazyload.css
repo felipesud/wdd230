@@ -1,0 +1,21 @@
+.container {
+    background-color: #972D07;
+    color: beige;
+    display: flexbox;
+    width: 300px;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  
+  .container img[data-src] {
+    filter: blur(0.3em);
+  }
+  
+  .container img {
+    filter: blur(0em);
+    transition: filter 1s;
+  }
