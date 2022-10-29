@@ -377,6 +377,20 @@ h2 {
   
 }
 
+.card {
+  width: 305px;
+  box-shadow: 1px 1px 4px 1px #888;
+  border-radius: 3px;
+  background-color: white;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.discoverPics {
+  display: flex;
+  flex-direction: column;
+
+}
 
 /* OLD BACKGROUND */
 /* background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../images/coreto-praca-bandeira.jpg");  */
