@@ -180,8 +180,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: #972D07; /* Rufous */
-  color: #ffffff;
+  background: var(--accent1-color); /* Rufous */
+  color: var(--accent2-color);
   font-family: 'Jost', sans-serif;
   display: flex;
   flex-direction: column;
