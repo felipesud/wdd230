@@ -26,9 +26,9 @@ if (lastVisit !== 0) {
 	const time = Date.now();
 
 
-	let difference = ((time - lastVisit) / (1000 / 60 / 60 / 24)).toFixed(0);
+	let difference = ((time - lastVisit) / (1000 * 60 * 60 * 24)).toFixed(0);
 
-
+	console.log(difference)
 
 
 	localStorage.setItem("last-visit", time);
