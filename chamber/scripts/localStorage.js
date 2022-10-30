@@ -2,7 +2,7 @@ const visitsDisplay = document.querySelector(".visits");
 const lastVisitDisplay = document.querySelector(".lastVisits");
 const today = new Date()
 const todayTime = today.getTime()
-// let accessData = []
+
 
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
 
@@ -12,7 +12,7 @@ if (numVisits !== 0) {
 } else {
 	visitsDisplay.textContent = `This is your first visit!`;
 }
-// let access = [].concat(today, accessData)
+
 numVisits++;
 localStorage.setItem("visits-ls", numVisits);
 
@@ -23,14 +23,6 @@ localStorage.setItem("visits-ls", numVisits);
 localStorage.setItem('today', todayTime)
 
 
-
-
-
-
-
-
-
-
 // get the stored value in localStorage
 const lastVisit = Number(window.localStorage.getItem("last-visit"));
 
@@ -39,7 +31,7 @@ if (lastVisit !== undefined) {
     
     const time = Date.now();
 	console.log(time)
-	// const convertTime = time.getTime()
+	
 
     let difference = ((time - lastVisit) / (1000*60*60*24)).toFixed(0);
 	console.log(difference)
