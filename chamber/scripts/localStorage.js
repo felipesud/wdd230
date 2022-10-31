@@ -1,5 +1,5 @@
-const visitsDisplay = document.querySelector(".visits");
-const lastVisitDisplay = document.querySelector(".lastVisits");
+const visitsDisplay = document.querySelector(".visit");
+const lastVisitDisplay = document.querySelector(".lastVisit");
 const today = new Date()
 const todayTime = today.getTime()
 
@@ -17,32 +17,26 @@ numVisits++;
 localStorage.setItem("visits-ls", numVisits);
 
 
-// Using local storage, display the amount of time in days 
-//(rounded to a whole number) between user visits to this page by the user's agent (browser). 
-//You may elect to display this information where you deem fit on the page.
-localStorage.setItem('today', todayTime)
 
-
-// get the stored value in localStorage
 const lastVisit = Number(window.localStorage.getItem("last-visit"));
+console.log(lastVisit)
+
+if (lastVisit !== 0) {
+
+	const time = Date.now();
 
 
-if (lastVisit !== undefined) {
-    
-    const time = Date.now();
-	console.log(time)
-	
+	let difference = ((time - lastVisit) / (1000 / 60 / 60 / 24)).toFixed(0);
 
-    let difference = ((time - lastVisit) / (1000*60*60*24)).toFixed(0);
-	console.log(difference)
 
-   lastVisitDisplay.textContent = difference;
-	
-    // localStorage.setItem("last-visit", time);
-    
+
+
+	localStorage.setItem("last-visit", time);
+
+
+	lastVisitDisplay.textContent = difference;
 
 } else {
-	lastVisitDisplay.textContent = `Your last visit is today`;
-    localStorage.setItem("last-visit",  Date.now());
+	visitsDisplay.textContent = `Today is your first day here`;
+	localStorage.setItem("last-visit", Date.now());
 }
-
