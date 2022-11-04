@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Raleway:wght@200;300&family=Ubuntu:wght@300;400&display=swap');
+
+table {
+	margin: 10px auto;
+	border: thin solid #002a4c;
+	box-shadow: 0 0 30px #002a4c;
+	border-collapse: collapse;
+}
+
+caption {
+	font-family: 'Raleway', sans-serif;
+  padding: 10px;
+  caption-side: bottom;
+	color: #11496e;
+	font-size: .85rem;
+}
+
+tr:first-child th, .highlight {
+	background-color: #11496e;
+	color: white;
+}
+
+th, td {
+	font-family: 'Ubuntu', sans-serif;
+	padding: 7px 15px;
+	border: 1px solid #002a4c;
+}
+
+th {
+	font-family: 'Raleway', sans-serif;
+	background-color: #21688f;
+	color: white;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #d2f5fa;
+}
+
+.paragraph {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #11496e;
+}
