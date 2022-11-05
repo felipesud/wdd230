@@ -209,5 +209,15 @@
   padding-right: 5px;
 }
 
+form {
+  margin: 1rem 0 2rem 40%;
+  max-width:  30rem;
+}
+
+form label.top input, form label.top select {
+
+  width: 100%;
+}
+
 }
 

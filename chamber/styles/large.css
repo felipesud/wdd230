@@ -80,6 +80,10 @@ grid-template-columns: 1fr 2fr 1fr;
   font-size: 20px;
 }
 
+form label.sbs {
+  padding: .4rem;
+}
+
 .heroBox{
   grid-column: 2;
   grid-row:1/3;
