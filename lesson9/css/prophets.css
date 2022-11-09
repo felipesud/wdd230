@@ -25,7 +25,7 @@ header h1{
     width: 265px;
     border: 3px solid black;
     border-radius: 10px;
-    background-color:#c0d6df;
+    background-color:white;
     margin-bottom: 10px;
 }
 
@@ -59,7 +59,7 @@ footer{
 @media only screen and (min-width: 35rem){
     body{
         font-family: 'Ubuntu', sans-serif;
-        background-color: #4a6fa5;
+        background-color: #AFFC41;
     }
     .cards section{
         margin: 10px 20px 10px 20px;
