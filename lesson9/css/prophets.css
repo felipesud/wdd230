@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Raleway:wght@200;300&family=Ubuntu:wght@300;400&display=swap');
+body{
+    font-family: 'Raleway', 'Lato',  sans-serif;
+    background-color: #166088;
+}
+
+header h1{
+    font-size: 2rem;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.795);
+    text-decoration: underline rgba(0, 0, 0, 0.795);
+}
+
+.cards{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    overflow: hidden;
+}
+
+
+.cards section{
+    width: 265px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color:#c0d6df;
+    margin-bottom: 10px;
+}
+
+.cards section h2{
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: #166088;
+}
+
+.cards section h3{
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.cards section img{
+    max-width: 250px;
+    margin: 10px;
+    box-shadow: 0 0 30px #4f6d7a;
+}
+
+footer{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 16.5px;
+}
+
+@media only screen and (min-width: 35rem){
+    body{
+        font-family: 'Ubuntu', sans-serif;
+        background-color: #4a6fa5;
+    }
+    .cards section{
+        margin: 10px 20px 10px 20px;
+        width: auto;
+    }
+
+    .cards section img{
+       width: 90%;
+    }
+}
+
+@media (width: 768px) {
+ 
+    .cards section img {
+        max-width: 360px;
+    }
+    
+    body{
+        background-color: #ECDD7B;
+    }
+    }
+
+
+@media (max-width: 425px) {
+
+    .cards section{
+        width: 380px;
+    }
+    .cards section img {
+        max-width: 360px;
+    }
+    body{
+        font-family: 'Raleway', 'Lato',  sans-serif;
+        background-color: #CE8147;
+    }
+    }
+
+@media (max-width: 375px) {
+
+.cards section{
+    width: 320px;
+}
+.cards section img {
+    max-width: 300px;
+}
+body{
+    font-family: 'Raleway', 'Lato',  sans-serif;
+    background-color: #4f6d7a;
+}
+}
+
+
+
+ @media (max-width: 320px) {
+
+        .cards section{
+            width: 260px;
+        }
+        .cards section img {
+            max-width: 240px;
+        }
+        body{
+            font-family: 'Raleway', 'Lato',  sans-serif;
+            background-color: #561D25;
+        }
+        
+        }
