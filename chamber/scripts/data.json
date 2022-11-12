@@ -1,5 +1,5 @@
-{
-   
+{ "companies":[
+   {
     "name": "Jequitibá Soccer",
     "address": "Vinton Street, 152",
     "phone": "+55-123658-8888",
@@ -7,4 +7,108 @@
     "imageurl": "/chamber/images/soccer.webp"
 
 
+},
+
+{
+   
+    "name": "Cacau Show",
+    "address": "Central Square, 555",
+    "phone": "+55-123948-1039 ",
+    "website": "wwww.cacaushow.com.br",
+    "imageurl": "/chamber/images/chocolate.webp"
+
+
+},
+
+{
+   
+    "name": "Felipe Web Developer",
+    "address": "Joseph Smith, St 2555",
+    "phone": "+55-1299256-7158",
+    "website": "felipe@fsbelisario.com.br",
+    "imageurl": "/chamber/images/resized/FelipeB_large_11zon.webp"
+
+
+},
+
+{
+   
+    "name": "MilClean",
+    "address": "Classic Street, 20",
+    "phone": "+55-1236525-8888",
+    "website": "wwww.milclean.com.br",
+    "imageurl": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+
+
+},
+
+{
+   
+    "name": "Brian Car Mechanics",
+    "address": "Brazil Ave, 500",
+    "phone": "+55-12-3655-2520",
+    "website": "www.briancar.com.br",
+    "imageurl": "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+
+
+},
+
+{
+   
+    "name": "Fusion Fitness Gym",
+    "address": "Birds Street, 21",
+    "phone": "+55-12-3625-5458",
+    "website": "www.fusionfitness.com.br",
+    "imageurl": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+
+
+},
+
+{
+   
+    "name": "",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "imageurl": ""
+
+
+},
+
+{
+   
+    "name": "",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "imageurl": ""
+
+
+},
+
+{
+   
+    "name": "",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "imageurl": ""
+
+
+},
+
+{
+   
+    "name": "",
+    "address": "",
+    "phone": "",
+    "website": "",
+    "imageurl": ""
+
+
 }
+
+
+]
+}
+
