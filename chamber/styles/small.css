@@ -457,6 +457,105 @@ form input.submitBtn{
 
 
 
+/* Directory Page */
+
+
+
+.cards{
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  overflow: hidden;
+}
+
+
+.cards section{
+  width: 265px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color:white;
+  margin-bottom: 10px;
+}
+
+.cards section h2{
+
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+  color: #166088;
+}
+
+.cards section h3{
+  padding: 2px;
+  margin-left: 10px;
+}
+
+.cards section img{
+  max-width: 250px;
+  margin: 10px;
+  box-shadow: 0 0 30px #4f6d7a;
+}
+
+
+@media only screen and (min-width: 35rem){
+
+  .cards section{
+      margin: 10px 20px 10px 20px;
+      width: auto;
+  }
+
+  .cards section img{
+     width: 90%;
+  }
+}
+
+@media (width: 768px) {
+
+  .cards section img {
+      max-width: 360px;
+  }
+  
+  }
+
+
+@media (max-width: 425px) {
+
+  .cards section{
+      width: 380px;
+  }
+  .cards section img {
+      max-width: 360px;
+  }
+  }
+
+@media (max-width: 375px) {
+
+.cards section{
+  width: 320px;
+}
+.cards section img {
+  max-width: 300px;
+}
+
+}
+
+
+
+@media (max-width: 320px) {
+
+      .cards section{
+          width: 260px;
+      }
+      .cards section img {
+          max-width: 240px;
+      }
+      
+      
+      }
+
+
+
+
 
 
 /* OLD BACKGROUND */
