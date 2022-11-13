@@ -1,4 +1,4 @@
-const requestURL = 'data.json'
+const requestURL = '/chamber/scripts/data.json'
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
