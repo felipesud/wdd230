@@ -462,6 +462,7 @@ form input.submitBtn{
 
 
 .cards{
+  text-align: center;
   margin: 1rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -471,7 +472,8 @@ form input.submitBtn{
 
 .cards section{
   width: 265px;
-  border: 3px solid black;
+  border: 3px solid white;
+  box-shadow: 1px 1px 4px 1px #888;
   border-radius: 10px;
   background-color:white;
   margin-bottom: 10px;
@@ -482,7 +484,7 @@ form input.submitBtn{
   padding: 5px;
   font-weight: bold;
   text-align: center;
-  color: #166088;
+  color: var(--secondary-color);
 }
 
 .cards section h3{

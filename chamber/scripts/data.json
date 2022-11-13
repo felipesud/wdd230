@@ -5,21 +5,21 @@
             "address": "Vinton Street, 152",
             "phone": "+55-123658-8888",
             "website": "www.jequitiba.com.br",
-            "imageurl": "/chamber/images/soccer.webp"
+            "imageurl": "https://images.unsplash.com/photo-1551958219-acbc608c6377?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         },
         {
             "name": "Cacau Show",
             "address": "Central Square, 555",
             "phone": "+55-123948-1039 ",
             "website": "wwww.cacaushow.com.br",
-            "imageurl": "/chamber/images/chocolate.webp"
+            "imageurl": "https://images.unsplash.com/photo-1614088685112-0a760b71a3c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
         },
         {
             "name": "Felipe Web Developer",
             "address": "Joseph Smith, St 2555",
             "phone": "+55-1299256-7158",
             "website": "felipe@fsbelisario.com.br",
-            "imageurl": "/chamber/images/resized/FelipeB_large_11zon.webp"
+            "imageurl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         },
         {
             "name": "MilClean",
@@ -69,6 +69,23 @@
             "phone": "+55-12-3689-2014",
             "website": "www.apaloosas.com.br",
             "imageurl": "https://images.unsplash.com/photo-1592861956120-e524fc739696?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+           
+            "name": "Phil Car Sales",
+            "address": "Joseph Smith Street, 500",
+            "phone": "+55-12-3653-6897",
+            "website": "www.philsales.com.br",
+            "imageurl": "https://images.unsplash.com/photo-1546199532-b648d9d5dc37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+        }
+        ,
+        {
+           
+            "name": "COPS - Security and Monitoring",
+            "address": "Brazil Ave, 1020",
+            "phone": "+55-12-3638-4523",
+            "website": "www.copsbrazil.com.br",
+            "imageurl": "https://images.unsplash.com/photo-1618371690240-e0d46eead4b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" 
         }
     ]
 }
