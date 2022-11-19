@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
+
+body {
+    text-align: center;
+    
+}
+h1 {
+    font-family: 'Josefin Sans';
+}
+h2 {
+    font-family: 'Montserrat';
+}
+
+p {
+    font-family: 'Lato';
+}
+main {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid black
+}
