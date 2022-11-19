@@ -33,7 +33,7 @@ apiFetch();
 
 function  displayResults(weatherData) {
     currentTemp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)}</strong>`;
-    windSpeedValue.innerHTML = `${weatherData.wind.speed.toFixed(1)} km/h`; //weatherData.wind.speed.toFixed(1)
+    windSpeedValue.innerHTML = `${weatherData.wind.speed.toFixed(1)} mph`; //weatherData.wind.speed.toFixed(1)
   
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
