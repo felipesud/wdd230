@@ -37,10 +37,16 @@ function  displayResults(weatherData) {
   
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
-  
+    
+    function capitalizeFirstLetter(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+      }
+      
+    //   console.log(capitalizeFirstLetter(desc));
+
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
-    captionDesc.textContent = desc;
+    captionDesc.textContent = capitalizeFirstLetter(desc);
 
     //WindChill
     const temperature = currentTemp.textContent;
