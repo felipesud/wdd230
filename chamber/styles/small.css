@@ -68,6 +68,16 @@ nav a {
 nav a:hover {
     background-color: var(--accent1-color);
   color: var(--accent2-color);
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+
+.active {
+  background-color: var(--accent1-color);
+  color: var(--accent2-color);
+  font-weight: bold;
+  border-radius: 5px;
 
 }
 
