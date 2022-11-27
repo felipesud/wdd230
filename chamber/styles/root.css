@@ -24,3 +24,16 @@
     --nav-hover-link-color: #051c34;
     --nav-hover-background-color: #DCD7E2; */
   }
+
+  html::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+    background: var(--accent2-color);
+  }
+  
+  html::-webkit-scrollbar-thumb {
+    background: var(--accent1-color);
+    border-radius: 5rem;
+  }

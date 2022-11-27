@@ -10,6 +10,8 @@
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    
     <script src="https://kit.fontawesome.com/54892b812d.js" crossorigin="anonymous"></script>
     <title>Caçapava Chamber of Commerce</title>
 </head>
@@ -18,6 +20,7 @@
 
 <body>
     <div class="heading-nav">
+        <!--header-->
         <header>
 
 
@@ -26,7 +29,7 @@
                 <a href="https://www.facebook.com/felipesud/" target="_blank"><i
                         class="fa-brands fa-facebook-square facebook"></i></a>
                 <a href="https://www.linkedin.com/in/felipe-belisario/" target="_blank"><i
-                        class="fa-brands fa-linkedin linkedin" ></i></a>
+                        class="fa-brands fa-linkedin linkedin"></i></a>
 
             </div>
             <button id="hamburgerBtn"><span>&#9776;</span><span>x</span></button>
@@ -45,18 +48,77 @@
             </nav>
 
         </header>
+        <!--header-->
+
+    </div>
+    <!--main-->
+    <main class="">
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+    <div class="heading">
+       
+       <h3>contact us</h3>
+    </div>
+
+    <div class="row">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.738054803842!2d-45.71131217092561!3d-23.106682936646752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc517c89324dcb%3A0x12c889a621287522!2sRua%20Major%20Benjamim%20Raymundo%20da%20Silva%2C%2030%20-%20Vila%20Sao%20Joao%2C%20Ca%C3%A7apava%20-%20SP%2C%2012281-430!5e0!3m2!1spt-BR!2sbr!4v1669512461057!5m2!1spt-BR!2sbr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+       <div class="form">
+
+          <div class="icons-container">
+
+             <div class="icons" data-aos="fade-up" data-aos-delay="150">
+                <i class="fas fa-map"></i>
+                <h3>address :</h3>
+                <p>Major Benjamin Raymundo da Silva, 30 Street
+
+                    Vila São João - Caçapava</p>
+             </div>
+
+             <div class="icons" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-envelope"></i>
+                <h3>email :</h3>
+                <p>info@cacapavacommerce.com</p>
+                <p>contact@cacapavacommerce.com</p>
+             </div>
+
+             <div class="icons" data-aos="fade-up" data-aos-delay="450">
+                <i class="fas fa-phone"></i>
+                <h3>phone :</h3>
+                <p>+55 (12) 3654-2700</p>
+                <p>+55 (12) 3654-2701</p>
+             </div>
+
+          </div>
+
+          <form action="">
+             <input data-aos="fade-up" data-aos-delay="150" type="text" placeholder="full name" class="box">
+             <input data-aos="fade-up" data-aos-delay="300" type="email" placeholder="email" class="box">
+             <input data-aos="fade-up" data-aos-delay="450" type="number" placeholder="phone" class="box">
+             <textarea data-aos="fade-up" data-aos-delay="600" name="" placeholder="message" class="box" id=""
+                cols="30" rows="10"></textarea>
+             <input data-aos="fade-up" data-aos-delay="750" type="submit" value="send message" class="btn">
+          </form>
+
+       </div>
 
     </div>
 
-    <main class="homePage">
+ </section>
 
-        
+ <!-- contact section ends -->
 
 
 
 
     </main>
-
+    <!--main-->
+    <!--footer-->
     <footer>
 
         <div class="footTop">
@@ -81,16 +143,24 @@
         <div class="footBot">
             <p>&copy; <span id="copyYr"></span> Caçapava Chamber of Commerce | Felipe Belisário | WDD 230 Project |
                 Last Modification: <span id="last-modified"></span></p>
-                <p><span class="label"><strong>Number of Visits: </strong></span><span class="visit"></span></p>
-        <p><span class="daysSince"><strong>Days since last visit: </strong></span><span class="lastVisit"></span></p>
+            <p><span class="label"><strong>Number of Visits: </strong></span><span class="visit"></span></p>
+            <p><span class="daysSince"><strong>Days since last visit: </strong></span><span class="lastVisit"></span>
+            </p>
         </div>
     </footer>
 
-    
+    <!--footer-->
+
     <script src="scripts/lazyLoad.js"></script>
     <script src="scripts/localStorage.js"></script>
     <script src="scripts/script.js"></script>
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+       AOS.init({
+          duration: 800,
+       });
+    </script>
 </body>
 
 </html>
