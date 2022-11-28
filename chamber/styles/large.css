@@ -102,19 +102,34 @@ form label.sbs {
 display: block;
   height: fit-content;
 }
+#spot0, #spot1, #spot2, #spot3, #spot4 {
+  border: 1px solid var(--accent2-color);
+  box-shadow: 0px 0px 1em var(--accent2-color);
+  -webkit-box-shadow: 0px 0px 1em var(--accent2-color);
+  -moz-box-shadow: 0px 0px 1em var(--accent2-color);;
+  font-size: 14px;
+  text-align: center;
+}
 
 .spotlight{
+  padding-top: 10px;
   height: 250px;
+  font-size: 15px;
 }
 
 .spotlight img {
-  width: 80px;
+  width: 70px;
+}
+/* #spot2 {
+  display: block;
+}
+#spot3 {
+  display: none;
 }
 
-.spot3 img {
-  
-  padding-left: 100px;
-}
+#spot4 {
+  display: none;
+} */
 
 .discoverPics {
   display:grid;

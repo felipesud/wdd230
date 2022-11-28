@@ -1,0 +1,115 @@
+{
+    "companies": [
+        {
+            "name": "Jequitibá Soccer",
+            "membership": "Gold Member",
+            "slogan": "Let's play like a Neymar!",
+            "address": "Vinton Street, 152",
+            "phone": "+55-123658-8888",
+            "website": "www.jequitiba.com.br",
+            "imageurl": "https://images.unsplash.com/photo-1551958219-acbc608c6377?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+            "name": "Cacau Show",
+            "membership": "Gold Member",
+            "slogan": "Sweet Candies, Sweet Lives",
+            "address": "Central Square, 555",
+            "phone": "+55-123948-1039 ",
+            "website": "wwww.cacaushow.com.br",
+            "imageurl": "https://images.unsplash.com/photo-1614088685112-0a760b71a3c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        },
+        {
+            "name": "Felipe Web Developer",
+            "membership": "Silver Member",
+            "slogan": "Making your drive better",
+            "address": "Joseph Smith, St 2555",
+            "phone": "+55-1299256-7158",
+            "website": "felipe@fsbelisario.com.br",
+            "imageurl": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+            "name": "MilClean",
+            "membership": "Silver Member",
+            "slogan": "Clean life, better life",
+            "address": "Classic Street, 20",
+            "phone": "+55-1236525-8888",
+            "website": "wwww.milclean.com.br",
+            "imageurl": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+            "name": "Brian Car Mechanics",
+            "membership": "Silver Member",
+            "slogan": "Best price, best service",
+            "address": "Brazil Ave, 500",
+            "phone": "+55-12-3655-2520",
+            "website": "www.briancar.com.br",
+            "imageurl": "https://images.unsplash.com/photo-1615906655593-ad0386982a0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        },
+        {
+            "name": "Fusion Fitness Gym",
+            "membership": "Bronze Member",
+            "slogan": "Best price, best service",
+            "address": "Birds Street, 21",
+            "phone": "+55-12-3625-5458",
+            "website": "www.fusionfitness.com.br",
+            "imageurl": "https://images.unsplash.com/photo-1558611848-73f7eb4001a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+        },
+        {
+            "name": "Tony Car Wash",
+            "membership": "Bronze Member",
+            "slogan": "The most traditional in town",
+            "address": "Brazil Ave, 3600",
+            "phone": "+55-12-99258-7896",
+            "website": "www.tonycar.com.br",
+            "imageurl": "https://images.unsplash.com/photo-1543857182-68106299b6b2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+        },
+        {
+            "name": "Nephi Constructions",
+            "membership": "Bronze Member",
+            "slogan": "Come build your dream with us",
+            "address": "Brazil Ave, 1000",
+            "phone": "+55-12-99156-8754",
+            "website": "www.nephiconstruction.com.br",
+            "imageurl": "https://images.unsplash.com/photo-1593313637552-29c2c0dacd35?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        },
+        {
+            "name": "Julio Welding Services",
+            "membership": "NP Member",
+            "slogan": "Service Quality Assurance",
+            "address": "Moses Street, 10",
+            "phone": "+55-12-3698-7123",
+            "website": "wwww.juliowelding.com.br",
+            "imageurl": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+            "name": "Apaloosa's Restaurant",
+            "membership": "NP Member",
+            "slogan": "Tradition and good taste",
+            "address": "Happiness Ave, 2658",
+            "phone": "+55-12-3689-2014",
+            "website": "www.apaloosas.com.br",
+            "imageurl": "https://images.unsplash.com/photo-1592861956120-e524fc739696?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        },
+        {
+           
+            "name": "Phil Car Sales",
+            "membership": "NP Member",
+            "slogan": "Tradition and good taste",
+            "address": "Joseph Smith Street, 500",
+            "phone": "+55-12-3653-6897",
+            "website": "www.philsales.com.br",
+            "imageurl": "https://images.unsplash.com/photo-1546199532-b648d9d5dc37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+        }
+        ,
+        {
+           
+            "name": "COPS - Security and Monitoring",
+            "membership": "NP Member",
+            "slogan": "Serving and protecting, that's our mission",
+            "address": "Brazil Ave, 1020",
+            "phone": "+55-12-3638-4523",
+            "website": "www.copsbrazil.com.br",
+            "imageurl": "https://images.unsplash.com/photo-1618371690240-e0d46eead4b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" 
+        }
+    ]
+}

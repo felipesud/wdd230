@@ -163,7 +163,7 @@ body {
   background-color: white;
   font-family: var(--paragraph-font), sans-serif;
   
-  font-size: 16px;
+  font-size: 18px;
   color: var(--accent2-color);
   margin: 0 auto;
 
@@ -199,10 +199,7 @@ main {
 
 .spotlight {
   
-  border: 1px solid var(--accent2-color);
-  box-shadow: 0px 0px 1em var(--accent2-color);
-  -webkit-box-shadow: 0px 0px 1em var(--accent2-color);
-  -moz-box-shadow: 0px 0px 1em var(--accent2-color);;
+ 
   padding: 2vw;
   margin: 0;
   min-height: 200px;
@@ -350,13 +347,14 @@ h2 {
   text-align: center;
 }
 
-.spot1 img {
+.spot img {
   width: 200px; 
-  padding-left: 100px;
+  
 }
 
 .slogan {
   text-align: center;
+  font-style: italic;
   
 }
 .email {
@@ -373,10 +371,7 @@ h2 {
   color: var(--accent2-color);
 }
 
-.spot2 img {
-  width: 200px; 
-  padding-left: 100px;
-}
+
 
 #hidden {
   display: none;
@@ -465,6 +460,25 @@ form input.submitBtn{
   max-width: 20rem;
 }
 
+#spot0, #spot1, #spot3, #spot4 {
+  border: 1px solid var(--accent2-color);
+  box-shadow: 0px 0px 1em var(--accent2-color);
+  -webkit-box-shadow: 0px 0px 1em var(--accent2-color);
+  -moz-box-shadow: 0px 0px 1em var(--accent2-color);;
+  
+}
+
+/* #spot2 {
+  display: none;
+}
+
+#spot3 {
+  display: none;
+}
+
+#spot4 {
+  display: none;
+} */
 
 
 /* Directory Page */
@@ -508,6 +522,14 @@ form input.submitBtn{
   box-shadow: 0 0 30px #4f6d7a;
 }
 
+#spot1, #spot2, #spot3 {
+  text-align: center;
+  
+}
+
+.imgSpot{
+  margin: 0 auto;
+}
 
 @media only screen and (min-width: 35rem){
 
@@ -567,92 +589,7 @@ form input.submitBtn{
 
 
 
-.contact .row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 3rem;
-}
 
-.contact .row .map {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
-  width: 100%;
-}
-
-.contact .row .form {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
-}
-
-.contact .row .form .icons-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  gap: 2rem;
-  margin-bottom: 3rem;
-}
-
-.contact .row .form .icons-container .icons {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 17rem;
-          flex: 1 1 17rem;
-  text-align: center;
-}
-
-.contact .row .form .icons-container .icons i {
-  height: 6rem;
-  width: 6rem;
-  line-height: 6rem;
-  border-radius: 50%;
-  background: #eacf4f;
-  color: #000;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.contact .row .form .icons-container .icons h3 {
-  padding: 1rem 0;
-  font-size: 2rem;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.contact .row .form .icons-container .icons p {
-  font-size: 1.5rem;
-  line-height: 2;
-  color: #aaa;
-}
-
-.contact .row .form form {
-  text-align: center;
-}
-
-.contact .row .form form .box {
-  padding: 1.2rem 1.4rem;
-  font-size: 1.6rem;
-  color: #fff;
-  background: none;
-  border: 0.2rem solid rgba(255, 255, 255, 0.3);
-  text-transform: none;
-  width: 100%;
-  margin: .7rem 0;
-}
-
-.contact .row .form form .box:focus {
-  border-color: #eacf4f;
-}
-
-.contact .row .form form textarea {
-  height: 15rem;
-  resize: none;
-}
 
 /* OLD BACKGROUND */
 /* background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url("../images/coreto-praca-bandeira.jpg");  */
