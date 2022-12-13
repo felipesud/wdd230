@@ -20,16 +20,18 @@ font-family: 'Roboto', sans-serif; */
 
 header {
     display: grid;
-    grid-template-columns: 60px 60px;
+    grid-template-columns: 270px 100px;
 }
 
 #menu-btn {
     grid-column: 2;
     color: #40B93C;
+    
 }
 .nav {
     display: none;
-    font-size: 14px;
+    
+    font-size: 50px;
     top: 79%;
     left: 0;
     right: 0;
@@ -39,15 +41,24 @@ header {
 }
 
 .active {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
-a {
+.nav-item{
     color: #40B93C;
     background-color: white;
     
 }
 
 .background {
-    background-image: url('../images/webp/juices.webp');
+   display: none;
+}
+
+.fa-bars, .fa-times {
+    width: 100px;
+}
+
+.hidden {
+    display: none;
 }
