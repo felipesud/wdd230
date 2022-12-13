@@ -1,0 +1,15 @@
+@media (min-width: 1024px) {
+
+
+    header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    header ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
