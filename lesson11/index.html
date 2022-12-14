@@ -2,57 +2,337 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/large.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <title>Home | Bountiful Foods - Fresh and Healthy</title>
+    <title>Bountiful Foods</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    <!-- header section starts  -->
-    <header class="header">
-        <a class="logo" href="#">
-            <img src="images/webp/logo.webp" alt="Bountiful Foods logo" width="250px" loading="lazy">
-        </a>
-        <div id="menu-btn" class="fas fa-bars"></div>
-        <nav class="nav">
-            
-                <a href="index.html" class="nav-item"> Home </a>
-                <a href="fresh.html" class="nav-item"> Fresh</a>
-                <a href="about.html" class="nav-item"> About Us</a>
-            
-        </nav>
-    </header>
-    <!-- header section ends -->
-    <main>
-        <div class="background">
-            <img src="images/webp/juices.webp" alt="Juices who we made" width="320px">
-           <section>
-            <h1>Come and make it your way!</h1>
-            <button><a href="fresh.html" target="_blank">Blend</a></button>
-        </section>
+    
+<!-- header section starts  -->
+
+<header>
+
+<a href="#" class="logo"><img src="images/webp/logo.webp" alt="Bountiful Foods Logo" width="50px"></a>
+
+<nav class="navbar">
+    <ul>
+        <li><a href="#home">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#service">service</a></li>
+        <li><a href="#project">project</a></li>
+        <li><a href="#donate">donate</a></li>
+        <li><a href="#post">post</a></li>
+    </ul>
+</nav>
+
+<div class="fas fa-bars"></div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+<div class="content">
+    <img src="images/webp/logo.webp" alt="Bountiful Foods Logo" width="250px" loading="lazy">
+    <h1>healthy foods, healthy life</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, earum ea dolores commodi iste sed nobis. Ab, quidem. Eum, delectus?</p>
+    <a href="#"><button class="btn">explore.</button></a>
+
+</div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <i class="fas fa-quote-left"></i> about us <i class="fas fa-quote-right"></i> </h1>
+
+<div class="row">
+
+    <div class="image">
+        <img src="images/about-img.jpg" alt="" loading="lazy">
+    </div>
+
+    <div class="content">
+        <h3>together we can save the planet</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus molestias corporis inventore soluta odio vero, dolor itaque illo eos. Velit, sequi libero animi debitis provident odit perferendis maxime repudiandae illo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere omnis fugit corporis dignissimos saepe! Accusamus accusantium enim laudantium voluptatem ab?</p>
+        <a href="#"><button class="btn">learn more</button></a>
+    </div>
+
+</div>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-users"></i>
+        <h3>1000+</h3>
+        <p>volunteers</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-tree"></i>
+        <h3>1300+</h3>
+        <p>trees planted</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-paw"></i>
+        <h3>450+</h3>
+        <p>animals saved</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-donate"></i>
+        <h3>850+</h3>
+        <p>donators</p>
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- service section starts  -->
+
+<section class="service" id="service">
+
+<h1 class="heading"> <i class="fas fa-quote-left"></i> weather <i class="fas fa-quote-right"></i> </h1>
+
+<div class="box-container weather">
+
+    
+
+   
+
+    <div class="box day1">
+        <p id="day1"></p>
+                    <div class="image"><img src="" alt="Image weather" id="img1" loading="lazy"></div>
+                    <p id="day1Desc"></p>
+                    <p id="day1Temp"></p>
+                    <p id="day1Hum"></p>
+    </div>
+
+    <div class="box day2">
+        <p id="day2"></p>
+        <div class="image"><img src="" alt="Image weather" id="img2" loading="lazy"></div>
+        <p id="day2Desc"></p>
+        <p id="day2Temp"></p>
+        <p id="day2Hum"></p>
+    </div>
+
+    <div class="box day3">
+        <p id="day3"></p>
+        <div class="image"><img src="" alt="Image weather" id="img3" loading="lazy"></div>
+        <p id="day3Desc"></p>
+        <p id="day3Temp"></p>
+        <p id="day3Hum"></p>
+    </div>
+
+    
+
+</div>
+
+</section>
+
+<!-- service section ends -->
+
+<!-- project section starts  -->
+
+<section class="project" id="project">
+
+<h1 class="heading"> <i class="fas fa-quote-left"></i> meet carlsbad <i class="fas fa-quote-right"></i> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        
+        <h2 class="card-title">Location</h2>
+                    <p class="card-text">Carlsbad is a coastal city located in the North County region of San Diego
+                        County, California, the city has a total area of 39.1 square miles
+                        (101 km2) of which 37.7 square miles (98 km2) is land and 1.4 square miles (3.6 km2) are water
+                        (3.55%), most of which are found within three miles lakes and one lake.</p>
+    </div>
+
+    <div class="box">
+        <h2 class="card-title">Statistics</h2>
+        <p class="card-text">According to the United States Census Bureau, the city's estimated population
+            in 2021 was 115,302.
+            <br>The population under 18 is 23.2%, above 65 years is 16.5%, and
+            50.7% of the total population are women.<br>Median household income is $112,933 per year.</p>
+    </div>
+
+    <div class="box">
+        <h2 class="card-title">Attractions</h2>
+        <p class="card-text">Carlsbad has beautiful beaches, the LEGOLAND theme park, the Carlsbad Aquarium,
+            the Flower Fields of Carlsbad Ranch, which has 50 acres of spectacular flowers in bloom every
+            spring, the Premium Outlets, for excellent shopping and has a variety of options for restaurants
+            and bars for a night out.</p>
+    </div>
+
+    
+</div>
+
+</section>
+
+<!-- project section ends -->
+
+<!-- donate section starts  -->
+
+<section class="donate" id="donate">
+
+<h1 class="heading"> <i class="fas fa-quote-left"></i> donate us <i class="fas fa-quote-right"></i> </h1>
+
+<!-- <div class="video-container">
+    <img src="images/webp/facade.avif" alt="Bountiful Foods Store">
+</div> -->
+
+<div class="form-container">
+
+    <form action="">
+
+        <div class="inputBox">
+            <input type="text" placeholder="first name">
+            <input type="text" placeholder="last name">
         </div>
 
-        <section>
-            <h2>Lorem ipsum dolor</h2>
-            <img src="images/webp/juice4.webp" alt="Juice sample" width="320px">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod sed fugit earum tempore velit, adipisci ad dicta perferendis qui ea nulla quibusdam enim voluptatibus esse asperiores autem debitis quae blanditiis!</p>
-        </section>
-        <section>
-            <br>
-            <h2>Living in Carlsbad, CA</h2>
-            <img src="https://images.unsplash.com/photo-1569472967070-8b3d39f6e54c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="Carlsbad View" class="hidden">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum recusandae ipsum ipsa illum ea nulla facere at incidunt accusantium quae eveniet magni exercitationem maxime suscipit, eaque iusto eos blanditiis quisquam?</p>
+        <div class="inputBox">
+            <input type="email" placeholder="enter your email">
+            <select name="" id="">
+                <option value="" selected disabled>donation amount</option>
+                <option value="$5">$5</option>
+                <option value="$10">$10</option>
+                <option value="$15">$15</option>
+                <option value="$20">$20</option>
+            </select>
+        </div>
 
-        </section>
-        <section>
-            <br>
-            <h2>Weather</h2>
-        </section>
-    </main>
+        <textarea name="" id="" cols="30" rows="10" placeholder="message ( optional )"></textarea>
 
-    <script src="scripts/scripts.js"></script>
+        <input type="submit" class="btn">
+
+    </form>
+
+</div>
+
+</section>
+
+<!-- donate section ends -->
+
+<!-- post section starts  -->
+
+<section class="post" id="post">
+
+<h1 class="heading"> <i class="fas fa-quote-left"></i> Make your own juice! <i class="fas fa-quote-right"></i> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="images/img1.jpg" alt="">
+        <div class="content">
+            <span> <i class="fas fa-calendar"></i> jan 2, 2021 </span>
+            <h3>post title goes here</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis nostrum voluptates cumque deserunt incidunt, minus mollitia rem molestiae ad.</p>
+            <a href="#"><button class="btn">read more</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img3.jpg" alt="">
+        <div class="content">
+            <span> <i class="fas fa-calendar"></i> jan 3, 2021 </span>
+            <h3>post title goes here</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis nostrum voluptates cumque deserunt incidunt, minus mollitia rem molestiae ad.</p>
+            <a href="#"><button class="btn">read more</button></a>
+        </div>
+    </div>
+
+    <div class="box">
+        <img src="images/img6.jpg" alt="">
+        <div class="content">
+            <span> <i class="fas fa-calendar"></i> jan 8, 2021 </span>
+            <h3>post title goes here</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis nostrum voluptates cumque deserunt incidunt, minus mollitia rem molestiae ad.</p>
+            <a href="#"><button class="btn">read more</button></a>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- post section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+<div class="box-container">
+
+    <div class="box">
+        <a href="#" class="logo"><img src="images/webp/logo.webp" alt="Bountiful Foods Logo" loading="lazy" width="60px"></a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda possimus impedit voluptate fuga id sapiente perspiciatis amet eos esse iure.</p>
+    </div>
+
+    <div class="box">
+        <h3 class="share">share</h3>
+        <a href="https://www.facebook.com/">facebook</a>
+        <a href="https://www.twitter.com/">twitter</a>
+        <a href="https://www.instagram.com/">instagram</a>
+       
+    </div>
+
+    <div class="box">
+        <h3 class="letter">newsletter</h3>
+        <form action="">
+            <input type="email" placeholder="enter your email">
+            <button type="submit" class="fas fa-paper-plane"></button>
+        </form>
+    </div>
+
+</div>
+
+<h1 class="credit">created by <span>mr. web designer</span> | last modified: <span class="last-modified"></span> </h1>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/main.js"></script>
+
 </body>
 </html>
