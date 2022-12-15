@@ -75,7 +75,7 @@
 
         <textarea name="" id="" cols="30" rows="10" placeholder="special instructions"></textarea>
 
-        <input type="submit" class="btn" value="send order">
+        <input onclick="feedbackForm()" type="submit" class="btn" value="send order">
         <div id="feedback"></div>
 
     </form>
@@ -241,7 +241,9 @@ formElement.addEventListener('submit', function(e){
     feedbackElement.style.display = 'block';
 })
 
-
+function feedbackForm() {
+     return alert("Your order has been submitted! We will contact you soon. Thank You");
+ }
 
 </script>
 </body>
