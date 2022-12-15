@@ -22,12 +22,12 @@
 
 <nav class="navbar">
     <ul>
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#service">service</a></li>
-        <li><a href="#project">project</a></li>
-        <li><a href="#donate">donate</a></li>
-        <li><a href="#post">post</a></li>
+        <li><a href="index.html">home</a></li>
+        <li><a href="fresh.html">fresh</a></li>
+        <li><a href="about.html">about</a></li>
+       
+        
+      
     </ul>
 </nav>
 
@@ -42,9 +42,9 @@
 <section class="home" id="home">
 
 <div class="content">
-    <img src="images/webp/logo.webp" alt="Bountiful Foods Logo" width="250px" loading="lazy">
+    <!-- <img src="images/webp/logo.webp" alt="Bountiful Foods Logo" width="250px" loading="lazy"> -->
     <h1>healthy foods, healthy life</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, earum ea dolores commodi iste sed nobis. Ab, quidem. Eum, delectus?</p>
+    <p>Choose from wholesome, organic, farm fresh produce to blend the perfect drink to invigorate your mind and body! Create a new blend or chose from our fan favorites. Either way, your belly will thank you!</p>
     <a href="#"><button class="btn">explore.</button></a>
 
 </div>
@@ -62,45 +62,23 @@
 <div class="row">
 
     <div class="image">
-        <img src="images/about-img.jpg" alt="" loading="lazy">
+        <picture>
+        <img src="images/placeholder.png"  data-src="images/webp/logo.webp" alt="Company Logo" loading="lazy" width="200px">
+    </picture>
     </div>
 
     <div class="content">
-        <h3>together we can save the planet</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus molestias corporis inventore soluta odio vero, dolor itaque illo eos. Velit, sequi libero animi debitis provident odit perferendis maxime repudiandae illo.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere omnis fugit corporis dignissimos saepe! Accusamus accusantium enim laudantium voluptatem ab?</p>
-        <a href="#"><button class="btn">learn more</button></a>
+        <h3>From our home to your home</h3>
+        <p>Bountiful Foods is a small family business that began in the 1990s with Joseph Y. White, a visionary
+            who at the time was already concerned with the quality of food for his family, so he decided to
+            produce his own food for that purpose.</p>
+        
+        <a href="about.html"><button class="btn">learn more</button></a>
     </div>
 
 </div>
 
-<div class="box-container">
 
-    <div class="box">
-        <i class="fas fa-users"></i>
-        <h3>1000+</h3>
-        <p>volunteers</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-tree"></i>
-        <h3>1300+</h3>
-        <p>trees planted</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-paw"></i>
-        <h3>450+</h3>
-        <p>animals saved</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-donate"></i>
-        <h3>850+</h3>
-        <p>donators</p>
-    </div>
-
-</div>
 
 </section>
 
@@ -114,7 +92,16 @@
 
 <div class="box-container weather">
 
-    
+    <div class="box">
+        <img src="images/rain-weather-pngrepo-com.webp" alt="Weather Image" id="weather-icon">
+                <div id="degree"><span id="temperature"></span>°F</div>
+                <h3 id="caption-desc"> Rainy</h3>
+                <p class="hr"></p>
+                <p id="wind-speed">Wind Speed: </p>
+                <p id="wind-speed-value"></p>
+                <p id="wind-chill">Wind Chill: </p>
+                <p id="wind-chill-value"></p>
+    </div>
 
    
 
@@ -156,33 +143,28 @@
 
 <h1 class="heading"> <i class="fas fa-quote-left"></i> meet carlsbad <i class="fas fa-quote-right"></i> </h1>
 
-<div class="box-container">
-
-    <div class="box">
+<div class="my-container">
+    <div id="background"></div>
+    <img class="mountains" src="https://images.unsplash.com/photo-1569472967070-8b3d39f6e54c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" alt="Carlsbad, CA photo" loading="lazy" width="500px">
+    
+    <section class="msg">
+        <h2>More Than Just A City</h2>
+        <p>Carlsbad is a coastal city located in the North County region of San Diego
+            County, California, the city has a total area of 39.1 square miles
+            (101 km2) of which 37.7 square miles (98 km2) is land and 1.4 square miles (3.6 km2) are water
+            (3.55%), most of which are found within three miles lakes and one lake.</p>
+            
         
-        <h2 class="card-title">Location</h2>
-                    <p class="card-text">Carlsbad is a coastal city located in the North County region of San Diego
-                        County, California, the city has a total area of 39.1 square miles
-                        (101 km2) of which 37.7 square miles (98 km2) is land and 1.4 square miles (3.6 km2) are water
-                        (3.55%), most of which are found within three miles lakes and one lake.</p>
-    </div>
-
-    <div class="box">
-        <h2 class="card-title">Statistics</h2>
-        <p class="card-text">According to the United States Census Bureau, the city's estimated population
-            in 2021 was 115,302.
-            <br>The population under 18 is 23.2%, above 65 years is 16.5%, and
-            50.7% of the total population are women.<br>Median household income is $112,933 per year.</p>
-    </div>
-
-    <div class="box">
-        <h2 class="card-title">Attractions</h2>
-        <p class="card-text">Carlsbad has beautiful beaches, the LEGOLAND theme park, the Carlsbad Aquarium,
-            the Flower Fields of Carlsbad Ranch, which has 50 acres of spectacular flowers in bloom every
-            spring, the Premium Outlets, for excellent shopping and has a variety of options for restaurants
-            and bars for a night out.</p>
-    </div>
-
+        <a href="https://en.wikipedia.org/wiki/Carlsbad,_California" target="_blank"><button class="btn">learn more</button></a>
+    </section>
+    
+        
+                   
+   
+   
+    
+    
+            
     
 </div>
 
@@ -190,85 +172,28 @@
 
 <!-- project section ends -->
 
-<!-- donate section starts  -->
 
-<section class="donate" id="donate">
-
-<h1 class="heading"> <i class="fas fa-quote-left"></i> donate us <i class="fas fa-quote-right"></i> </h1>
-
-<!-- <div class="video-container">
-    <img src="images/webp/facade.avif" alt="Bountiful Foods Store">
-</div> -->
-
-<div class="form-container">
-
-    <form action="">
-
-        <div class="inputBox">
-            <input type="text" placeholder="first name">
-            <input type="text" placeholder="last name">
-        </div>
-
-        <div class="inputBox">
-            <input type="email" placeholder="enter your email">
-            <select name="" id="">
-                <option value="" selected disabled>donation amount</option>
-                <option value="$5">$5</option>
-                <option value="$10">$10</option>
-                <option value="$15">$15</option>
-                <option value="$20">$20</option>
-            </select>
-        </div>
-
-        <textarea name="" id="" cols="30" rows="10" placeholder="message ( optional )"></textarea>
-
-        <input type="submit" class="btn">
-
-    </form>
-
-</div>
-
-</section>
-
-<!-- donate section ends -->
 
 <!-- post section starts  -->
 
-<section class="post" id="post">
+<section class="service" id="service">
 
 <h1 class="heading"> <i class="fas fa-quote-left"></i> Make your own juice! <i class="fas fa-quote-right"></i> </h1>
 
-<div class="box-container">
+<div class="box-container bg-color">
 
-    <div class="box">
-        <img src="images/img1.jpg" alt="">
-        <div class="content">
-            <span> <i class="fas fa-calendar"></i> jan 2, 2021 </span>
-            <h3>post title goes here</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis nostrum voluptates cumque deserunt incidunt, minus mollitia rem molestiae ad.</p>
-            <a href="#"><button class="btn">read more</button></a>
+    <section class="content own">
+        <h3>Make your own fruit drink mix!</h3>
+        <p>Here you have the freedom to make your own mix, with organic fruit and guaranteed quality. We have 39
+            fruit options to suit your taste, just check the fruit you want and click.</p>
+            
+            <div class="storage">
+                <p><span class="label">Total of drinks: </span><span class="drinks"></span></p>
+                <a href="fresh.html" target="_blank"><button class="btn">learn more</button></a>
+            <p>
         </div>
-    </div>
 
-    <div class="box">
-        <img src="images/img3.jpg" alt="">
-        <div class="content">
-            <span> <i class="fas fa-calendar"></i> jan 3, 2021 </span>
-            <h3>post title goes here</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis nostrum voluptates cumque deserunt incidunt, minus mollitia rem molestiae ad.</p>
-            <a href="#"><button class="btn">read more</button></a>
-        </div>
-    </div>
-
-    <div class="box">
-        <img src="images/img6.jpg" alt="">
-        <div class="content">
-            <span> <i class="fas fa-calendar"></i> jan 8, 2021 </span>
-            <h3>post title goes here</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo veritatis nostrum voluptates cumque deserunt incidunt, minus mollitia rem molestiae ad.</p>
-            <a href="#"><button class="btn">read more</button></a>
-        </div>
-    </div>
+    </section>
 
 </div>
 
@@ -284,7 +209,9 @@
 
     <div class="box">
         <a href="#" class="logo"><img src="images/webp/logo.webp" alt="Bountiful Foods Logo" loading="lazy" width="60px"></a>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda possimus impedit voluptate fuga id sapiente perspiciatis amet eos esse iure.</p>
+        <p>Our mission is to make every guest’s day better by serving great-tasting products as a celebration of health and happiness.
+
+            Bountiful Foods is the world’s leading provider of great-tasting, good-for-you products served in an energized, enthusiastic environment.</p>
     </div>
 
     <div class="box">
@@ -305,7 +232,7 @@
 
 </div>
 
-<h1 class="credit">created by <span>mr. web designer</span> | last modified: <span class="last-modified"></span> </h1>
+<p class="credit"><span id="current-date"></span> &nbsp;&copy;&nbsp;Bountiful Foods | WDD 230 Final Project</p><h1 class="credit">created by <span>felipe belisário</span> | last modified: <span id="last-modified"></span> </h1>
 
 </section>
 
@@ -333,6 +260,7 @@
 
 <!-- custom js file link  -->
 <script src="js/main.js"></script>
+<script src="js/weatherapi.js"></script>
 
 </body>
 </html>

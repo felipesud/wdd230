@@ -109,3 +109,110 @@ function getWeekDay(today) {
       break;
   }
 }
+
+//Fruits List
+const request_home = "https://brotherblazzard.github.io/canvas-content/fruit.json";
+const fruits = document.querySelector('#fruits_opt');
+const btn = document.querySelector('#btnSend');
+listIds = [];
+storageDrink(listIds.length)
+
+fetch(request_home)
+    .then(function (response){
+        return response.json();
+    })
+    .then(function(jsonObject){
+        console.log(jsonObject)
+        jsonObject.forEach(displayFruits);
+    })
+
+    function displayFruits(fruit){
+
+        let options = document.createElement('input');
+        options.type = 'checkbox';
+        options.name = fruit.name
+        options.value = fruit.name
+        options.id = fruit.id
+
+        options.addEventListener ('click', function(){
+            if(options.checked == false){
+                listIds.splice(listIds.indexOf(options.id),1);
+            }else if(options.checked == true){
+                listIds.push(options.id);
+            }
+
+            storageDrink(listIds.length);
+            
+        })
+
+   
+        let label = document.createElement('label')
+        label.htmlFor = `${fruit.name}`
+        label.appendChild(document.createTextNode(`${fruit.name}`));
+
+        let br = document.createElement('br')
+
+        fruits.appendChild(options)
+        fruits.appendChild(label)
+        fruits.appendChild(br)
+    }
+
+
+//Storage
+function storageDrink(list){
+    const drinks = document.querySelector('.drinks');
+
+    let totalDrinks = Number(window.localStorage.getItem('drinks-ls'));
+
+    if (totalDrinks == 0){
+        localStorage.setItem('drinks-ls', totalDrinks);
+    }
+
+    if (list > 0){
+        drinks.textContent = list;
+        localStorage.setItem('drinks-ls', list);
+    } else{
+        localStorage.setItem('drinks-ls', 0);
+        drinks.textContent = `You haven't chosen any drinks yet!`
+    }
+    totalDrinks++; 
+}
+
+//Images
+
+const imagesToload = document.querySelectorAll('img[data-src]')
+
+const imgOptions = {
+    threshold: 1,
+    rootMargin: '0px 0px 100px 0px'
+};
+
+const loadImages = (image) => {
+    image.setAttribute('src', image.getAttribute('data-src'));
+    image.onload = () => {
+        image.removeAttribute('data-src');
+    }
+};
+
+if("IntersectionObserver" in window){
+    const observer = new IntersectionObserver((items, observer) => {
+        items.forEach((item) =>{
+            if (item.isIntersecting) {
+                loadImages(item.target);
+                observer.unobserve(item.target);
+              }
+        });
+    }, imgOptions);
+
+    imagesToload.forEach((img) => {
+        observer.observe(img);
+    });
+} else{
+    imagesToload.forEach((img) => {
+        loadImages(img)
+    })
+}
+
+
+
+
