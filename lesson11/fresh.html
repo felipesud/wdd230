@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bountiful Foods</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+<a href="#" class="logo"><img src="images/webp/logo.webp" alt="Bountiful Foods Logo" width="50px"></a>
+
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="fresh.html">fresh</a></li>
+        <li><a href="about.html">about</a></li>
+       
+        
+      
+    </ul>
+</nav>
+
+<div class="fas fa-bars"></div>
+
+</header>
+
+<!-- header section ends -->
+
+
+<!-- donate section starts  -->
+
+<section class="donate" id="donate">
+
+<h1 class="heading"> <i class="fas fa-quote-left"></i> blend it! <i class="fas fa-quote-right"></i> </h1>
+
+<!-- <div class="video-container">
+    <img src="images/webp/facade.avif" alt="Bountiful Foods Store">
+</div> -->
+
+<div class="form-container">
+
+    <form action="">
+
+        <div class="inputBox">
+            <input type="text" name="fname" required pattern="[a-zA-Z\s]+$" placeholder="name">
+            <input type="email" name="email" placeholder="youremail@gmail.com" required
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+        </div>
+
+        <div class="inputBox">
+            <input type="tel" name="phone" required pattern="[0-9]{5,}" placeholder="enter your phone">
+            <select id="first_fruit" name="first_fruit">
+                <option value="">First Fruit</option>
+            </select>
+
+            <select id="second_fruit" name="second_fruit">
+                <option value="">Second Fruit</option>
+            </select>
+
+            <select id="third_fruit" name="third_fruit">
+                <option value="">Third Fruit</option>
+            </select>
+        </div>
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="special instructions"></textarea>
+
+        <input type="submit" class="btn" value="send order">
+        <div id="feedback"></div>
+
+    </form>
+
+</div>
+
+</section>
+
+<!-- donate section ends -->
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+<div class="box-container">
+
+    <div class="box">
+        <a href="#" class="logo"><img src="images/webp/logo.webp" alt="Bountiful Foods Logo" loading="lazy" width="60px"></a>
+        <p>Our mission is to make every guest’s day better by serving great-tasting products as a celebration of health and happiness.
+
+            Bountiful Foods is the world’s leading provider of great-tasting, good-for-you products served in an energized, enthusiastic environment.</p>
+    </div>
+
+    <div class="box">
+        <h3 class="share">share</h3>
+        <a href="https://www.facebook.com/">facebook</a>
+        <a href="https://www.twitter.com/">twitter</a>
+        <a href="https://www.instagram.com/">instagram</a>
+       
+    </div>
+
+    <div class="box">
+        <h3 class="letter">newsletter</h3>
+        <form action="">
+            <input type="email" placeholder="enter your email">
+            <button type="submit" class="fas fa-paper-plane"></button>
+        </form>
+    </div>
+
+</div>
+
+<p class="credit"><span id="current-date"></span> &nbsp;&copy;&nbsp;Bountiful Foods | WDD 230 Final Project</p><h1 class="credit">created by <span>felipe belisário</span> | last modified: <span id="last-modified"></span> </h1>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="js/main.js"></script>
+<script src="js/weatherapi.js"></script>
+<script>
+    const request = "https://brotherblazzard.github.io/canvas-content/fruit.json";
+const first_fruit = document.querySelector('#first_fruit');
+const second_fruit = document.querySelector('#second_fruit');
+const third_fruit = document.querySelector('#third_fruit');
+let list = ''
+
+fetch(request)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
+    console.log(jsonObject)
+    const fruitslist = jsonObject['fruits']
+    jsonObject.forEach(displayOptions)
+
+  });
+
+
+function displayOptions(fruitOption){
+
+    let first = document.createElement('option')
+    first.id = fruitOption.id
+    first.name = fruitOption.name
+    first.innerHTML = fruitOption.name
+
+    let carb1 = document.createElement('input');
+    carb1.type = "hidden"
+    carb1.id = fruitOption.id
+    carb1.innerHTML = Number(fruitOption.nutritions.carbohydrates)
+
+    first_fruit.appendChild(first)
+    first_fruit.appendChild(carb1)
+   
+
+    let second = document.createElement('option')
+    second.id = fruitOption.id
+    second.name = fruitOption.name
+    second.value = fruitOption.id
+
+    let carb2 = document.createElement('input');
+    carb2.type = "hidden"
+    carb2.value = Number(fruitOption.nutritions.carbohydrates)
+    carb2.id = fruitOption.id
+    carb2.innerHTML = fruitOption.nutritions.carbohydrates
+    second.innerHTML = fruitOption.name
+    second_fruit.appendChild(second)
+    second_fruit.appendChild(carb2)
+
+    let third = document.createElement('option')
+    third.id = fruitOption.id
+    third.name = fruitOption.name
+    third.value = fruitOption.id
+
+    let carb3 = document.createElement('input');
+    carb3.type = "hidden"
+    carb3.value = fruitOption.nutritions.carbohydrates
+    carb3.id = fruitOption.id
+    carb3.innerHTML = Number(fruitOption.nutritions.carbohydrates)
+
+    third.innerHTML = fruitOption.name
+    third_fruit.appendChild(third) 
+    third_fruit.appendChild(carb3)
+}
+
+//Return MSG
+const feedbackElement = document.querySelector('#feedback');
+
+//Date
+const newDate = new Date();
+const day = String(newDate.getDate()).padStart(2, '0') // 1 -> 01
+const month = String(newDate.getMonth() +1).padStart(2, '0') // jan = 0, 3 -> 03
+const newYear = date.getFullYear() // 2022
+const newToday = `${month}/${day}/${newYear}`
+
+const formElement = document.forms[0];
+
+formElement.addEventListener('submit', function(e){
+    e.preventDefault();
+    feedbackElement.innerHTML = 
+    `Order Summary<br>
+    Name: ${formElement.fname.value} <br>
+    Email: ${formElement.email.value} <br>
+    Phone: ${formElement.phone.value} <br>
+    First Fruit: ${formElement.first_fruit.value} <br>
+    Second Fruit: ${formElement.second_fruit.value} <br>
+    Third Fruit: ${formElement.third_fruit.value} <br>
+    Special instructions: ${formElement.bdescription.value} <br>
+    Order Data: ${newToday} <br>`;
+
+    feedbackElement.style.display = 'block';
+})
+
+
+
+</script>
+</body>
+</html>
